@@ -1,4 +1,4 @@
-def pro(s,i,j):
+def Product(s,i,j):
     if(i==j):
         print("A{}".format(i),end="")
     else:
@@ -30,11 +30,11 @@ print("Product Matrix:")
 for i in m:
     print(i)
     
-print("\nFor parenthesis:")
+print("\nFor Parenthesis:")
 for i in s:
     print(i)
     
-pro(s,1,n-1)   
+Product(s,1,n-1)   
             
             
     
